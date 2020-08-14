@@ -7,7 +7,7 @@ if __name__ == "__main__":
     if select_api > 2 or select_api < 0:
         raise "Error"
 
-    api_key = input("> Enter API Key: ") # 17830593-04307d2cef934d8c65f5e1f2b
+    api_key = input("> Enter API Key: ")
     query = input("> Enter image search term: ") # apple
     number_of_images_to_download = int(input("> Enter number of images to download: ")) # 300
     save_path = input("> Enter directory path to be images saved: ") # ./apple/
